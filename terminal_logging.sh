@@ -2,6 +2,8 @@
 # Author: Aaron van Diepen
 # Append a line in /etc/bash.bashrc to:
 # Automatically log all terminal/SSH sessions
+#
+# Tested on and works with Ubuntu 20.04
 ###############################################
 
 # write comment to file
