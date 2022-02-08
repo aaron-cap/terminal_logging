@@ -1,5 +1,3 @@
-#!/bin/bash
-
 ###############################################
 # Author: Aaron van Diepen
 # Append a line in /etc/bash.bashrc to:
