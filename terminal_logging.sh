@@ -6,6 +6,10 @@
 # Tested on and works with Ubuntu 20.04
 ###############################################
 
+# remove the lines if already appended
+grep -v "Automatically" /etc/bash.bashrc > tmpfile && mv tmpfile /etc/bash.bashrc
+grep -v "script" /etc/bash.bashrc > tmpfile && mv tmpfile /etc/bash.bashrc
+
 # write comment to file
 echo "# Automatically log all terminal/SSH sessions" >> /etc/bash.bashrc
 # write command to file
